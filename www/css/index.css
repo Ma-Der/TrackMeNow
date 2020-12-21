@@ -1,0 +1,35 @@
+#map {
+  background-color: aqua;
+  height: 400px;
+  width: 100%;
+}
+
+#time {
+  border: 2px solid red;
+  width: 50vw;
+  padding: 5px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 50%;
+  outline: none;
+}
+
+.wrapperBtn {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div id="map"></div>
+        <div class='wrapperBtn'>
+            <button id='offBtn'>GEOLOCATION ON/OFF</button>
+        </div>
+
+        <div class='data'>
+            <h2>Start data: </h2>
+            <div id='start-data'></div>
+            <h2>Start coordinates: </h2>
+            <div id='start-coordinates'></div>
+            <h2>Current data: </h2>
+            <div id='current-data'></div>
+            <h2>Current coordinates: </h2>
+            <div id='current-coordinates'></div>
+        </div>
+        
+
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBexhC2am1eaZz4X7oW9sq8QrbrNPyoTk4&libraries=drawing&callback=initMap&libraries=&v=weekly"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
